@@ -5,12 +5,6 @@ body {
 }
 
 canvas {
-    background-image: url("water_still.png");
-    -webkit-animation: play .8s steps(10) infinite;
-       -moz-animation: play .8s steps(10) infinite;
-        -ms-animation: play .8s steps(10) infinite;
-         -o-animation: play .8s steps(10) infinite;
-            animation: play .8s steps(10) infinite;
     padding: 0;
     margin: auto;
     display: block;
