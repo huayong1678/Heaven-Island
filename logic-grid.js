@@ -89,7 +89,7 @@ function Hero(map, x, y) {
     this.image = Loader.getImage('hero');
 }
 
-Hero.SPEED = 512*0.75; // pixels per second
+Hero.SPEED = 128; // pixels per second
 
 Hero.prototype.move = function (delta, dirx, diry) {
     // move hero
