@@ -1,10 +1,19 @@
 body {
     font-family: 'Source Code Pro', 'Courier', monospace;
-    margin: 0;
+    overflow: hidden;
+    background-color: blanchedalmond;
 }
 
 canvas {
     background: #000;
+    padding: 0;
+    margin: auto;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 a, a:hover, a:visited {
