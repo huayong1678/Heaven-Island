@@ -1,7 +1,39 @@
 body {
-    font-family: 'Source Code Pro', 'Courier', monospace;
+    font-family: 'Alegreya', serif;
+    font-family: 'Aclonica', sans-serif;
+    font-family: 'Sarina', cursive;
+    font-family: 'Knewave', cursive;
     overflow: hidden;
     background-color: blanchedalmond;
+}
+body.index{
+    background-size: 3000px;
+    background-image: url("water_animated.png");
+    -webkit-animation: play 1.75s steps(10) infinite;
+       -moz-animation: play 1.75s steps(10) infinite;
+        -ms-animation: play 1.75s steps(10) infinite;
+         -o-animation: play 1.75s steps(10) infinite;
+            animation: play 1.75s steps(10) infinite;
+}
+#title{
+    font-family: 'Knewave', cursive;
+    font-size: 4vw;
+    position: relative;
+    margin-top: 8vh;
+    text-align: center;
+    display: block;
+    font-weight: bolder;
+}
+div.index{
+    background-image: url('map_background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    margin-top: 2vh;
+    left: 25vw;
+    height: 95vh;
+    width: 95vh;
 }
 canvas {
     padding: 0;
@@ -45,58 +77,9 @@ canvas {
       to { background-position: -3200px; }
  } 
 
-a, a:hover, a:visited {
-    color: #000;
-    text-decoration: none;
-}
-
-a {
-    border-bottom: 2px solid #31ffd5;
-}
-
-a:hover {
-    background:#31ffd5;
-}
-
 .main-wrapper {
     width: 512px;
     padding-left: 1em;
     padding-right: 1em;
     margin: 0 auto;
-}
-
-.main-header, .main-footer {
-    text-align: center;
-}
-
-.subtitle {
-    font-size: 1.5em;
-}
-
-.main-header {
-    margin-top: 0;
-    margin-bottom: 2em;
-}
-
-.main-header h1 {
-    margin: 0;
-    background: #31ffd5;
-    padding: 0.5em 1em;
-}
-
-.main-header a {
-    color: #000;
-    text-decoration: none;
-}
-
-.main-footer {
-    margin-top: 2em;
-}
-
-li, p {
-    line-height: 1.25em;
-}
-
-li {
-    margin: 0.5em 0;
 }

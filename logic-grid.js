@@ -198,7 +198,7 @@ Game._drawLayer = function (layer) {
         }
     }
 };
-
+/*
 Game._drawGrid = function () {
         var width = map.cols * map.tsize;
     var height = map.rows * map.tsize;
@@ -220,7 +220,7 @@ Game._drawGrid = function () {
         this.ctx.stroke();
     }
 };
-
+*/
 Game.render = function () {
     // draw map background layer
     this._drawLayer(0);
@@ -234,5 +234,5 @@ Game.render = function () {
     // draw map top layer
     this._drawLayer(1);
 
-    this._drawGrid();
+//    this._drawGrid();
 };
