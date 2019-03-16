@@ -91,18 +91,18 @@ Game.run = function (context) {
 };
 
 Game.tick = function (elapsed) {
-    window.requestAnimationFrame(this.tick);
-
     // clear previous frame
     this.ctx.clearRect(0, 0, 768, 768);
 
     // compute delta time in seconds -- also cap it
-    var delta = (elapsed - this._previousElapsed) / 1000.0;
-    delta = Math.min(delta, 0.25); // maximum delta of 250 ms
-    this._previousElapsed = elapsed;
+    var delta = 0.1;
+    //delta = Math.min(delta, 0.25); // maximum delta of 250 ms
+    //this._previousElapsed = elapsed;
 
     this.update(delta);
     this.render();
+
+    setTimeout(function(){Game.tick()}, 100);
 }.bind(Game);
 
 // override these methods to create the demo
