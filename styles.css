@@ -7,13 +7,14 @@ body {
     background-color: blanchedalmond;
 }
 body.index{
-    background-size: 3000px;
+    /*background-size: 3000px;
     background-image: url("water_animated.png");
     -webkit-animation: play 1.75s steps(10) infinite;
        -moz-animation: play 1.75s steps(10) infinite;
         -ms-animation: play 1.75s steps(10) infinite;
          -o-animation: play 1.75s steps(10) infinite;
-            animation: play 1.75s steps(10) infinite;
+            animation: play 1.75s steps(10) infinite;*/
+    background-image: url('BG.png');
 }
 #title{
     font-family: 'Knewave', cursive;
