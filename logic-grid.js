@@ -49,7 +49,6 @@ var map = {
         var col = Math.floor(x / this.tsize);
         var row = Math.floor(y / this.tsize);
 
-        // tiles 3 and 5 are solid -- the rest are walkable
         // loop through all layers and return TRUE if any tile is solid
         return this.layers.reduce(function (res, layer, index) {
             var tile = this.getTile(index, col, row);
@@ -256,6 +255,7 @@ Game._drawGrid = function () {
     }
 };
 */
+
 Game.render = function () {
     // draw map background layer
     this._drawLayer(0);

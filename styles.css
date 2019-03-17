@@ -1,42 +1,5 @@
 body {
-    font-family: 'Alegreya', serif;
-    font-family: 'Aclonica', sans-serif;
-    font-family: 'Sarina', cursive;
-    font-family: 'Knewave', cursive;
-    overflow: hidden;
-    background-color: blanchedalmond;
-}
-body.index{
-    /*background-size: 3000px;
-    background-image: url("water_animated.png");
-    -webkit-animation: play 1.75s steps(10) infinite;
-       -moz-animation: play 1.75s steps(10) infinite;
-        -ms-animation: play 1.75s steps(10) infinite;
-         -o-animation: play 1.75s steps(10) infinite;
-            animation: play 1.75s steps(10) infinite;*/
-    background-image: url('BG.png');
-}
-#title{
-    font-family: 'Knewave', cursive;
-    font-size: 4vw;
-    position: relative;
-    margin-top: 8vh;
-    text-align: center;
-    display: block;
-    font-weight: bolder;
-}
-div.index{
-    background-image: url('map_background.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    position: fixed;
-    margin-top: 2vh;
-    left: 25vw;
-    height: 95vh;
-    width: 95vh;
-}
-canvas {
+    font-family: 'Sigmar One', cursive;
     padding: 0;
     margin: auto;
     display: block;
@@ -51,6 +14,39 @@ canvas {
         -ms-animation: play 1.2s steps(10) infinite;
          -o-animation: play 1.2s steps(10) infinite;
             animation: play 1.2s steps(10) infinite;
+}
+/*div.index{
+    background-image: url('map_background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    margin-top: 2vh;
+    left: 25vw;
+    height: 95vh;
+    width: 95vh;
+}*/
+#demo {
+    padding: 0;
+    margin: auto;
+    display: block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url("water_animated.png");
+    -webkit-animation: play 1.2s steps(10) infinite;
+       -moz-animation: play 1.2s steps(10) infinite;
+        -ms-animation: play 1.2s steps(10) infinite;
+         -o-animation: play 1.2s steps(10) infinite;
+            animation: play 1.2s steps(10) infinite;
+}
+#lifeline {
+    display: block;
+    position: fixed;
+    top: 0px;
+    left: 0px;
 }
 
 @-webkit-keyframes play {
@@ -76,11 +72,4 @@ canvas {
  @keyframes play {
     from { background-position:    0px; }
       to { background-position: -3200px; }
- } 
-
-.main-wrapper {
-    width: 512px;
-    padding-left: 1em;
-    padding-right: 1em;
-    margin: 0 auto;
-}
+ }
