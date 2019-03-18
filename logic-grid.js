@@ -171,7 +171,7 @@ Game.load = function () {
     return [
         Loader.loadImage('tiles', 'tiles.png'),
         Loader.loadImage('hero', 'JB.png'),
-        Loader.getImage('beer', 'beer.png')
+        Loader.loadImage('beer', 'beer.png')
     ];
 };
 
