@@ -116,3 +116,24 @@ body {
     
     transition: width .5s linear;
   }
+  .arrow.left{
+    position: fixed;
+    display: inline-block;
+    content:url('arrow.png');
+    padding: 0%;
+    top: 38%;
+    margin: auto;
+    left: 4%;
+    width: 15%;
+    transition: 0.7s;
+}
+.arrow.left:hover{
+    position: fixed;
+    display: inline-block;
+    content:url('arrow.png');
+    width: 22%;
+    padding: 0%;
+    top: 37%;
+    margin: auto;
+    left: 3%;
+}
