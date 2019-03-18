@@ -35,6 +35,24 @@ var map = {
     }
 };
 
+var beer = {
+    generateBeers: function (row, col) {
+        let arr = [];
+        for (var r = 0; r < row; r++) {
+            let lines = [];
+            for (var c = 0; c < col; c++) {
+                if (!map.isSolidTileAtXY(c * map.tsize, r * map.tsize)) {
+                    lines.push(Math.random() > 0.8 ? 1 : 0);
+                } else {
+                    lines.push(0);
+                }
+            }
+            arr.push(lines);
+        }
+        return arr;
+    }
+}
+
 function Camera(map, width, height) {
     this.x = 0;
     this.y = 0;
@@ -80,10 +98,12 @@ Camera.prototype.update = function () {
 
 function Hero(map, x, y) {
     this.map = map;
+    this.beers = beer.generateBeers(map.rows, map.cols);
     this.x = x;
     this.y = y;
     this.width = map.tsize;
     this.height = map.tsize;
+    this.score = 0;
 
     this.image = Loader.getImage('hero');
 }
@@ -103,6 +123,11 @@ Hero.prototype.move = function (delta, dirx, diry) {
     var maxY = this.map.rows * this.map.tsize;
     this.x = Math.max(0, Math.min(this.x, maxX));
     this.y = Math.max(0, Math.min(this.y, maxY));
+
+    if (this.beers[Math.floor(this.x / this.map.tsize)][Math.floor(this.y / this.map.tsize)] == 1) {
+        this.beers[Math.floor(this.x / this.map.tsize)][Math.floor(this.y / this.map.tsize)] = 0;
+        this.score += 1;
+    }
 };
 
 Hero.prototype._collide = function (dirx, diry) {
@@ -143,7 +168,8 @@ Hero.prototype._collide = function (dirx, diry) {
 Game.load = function () {
     return [
         Loader.loadImage('tiles', 'tiles.png'),
-        Loader.loadImage('hero', 'JB.png')
+        Loader.loadImage('hero', 'JB.png'),
+        Loader.getImage('beer', 'beer.png')
     ];
 };
 
