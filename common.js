@@ -92,7 +92,7 @@ Game.run = function (context) {
 
 Game.tick = function (elapsed) {
     // clear previous frame
-    this.ctx.clearRect(0, 0, 768, 768);
+    this.ctx.clearRect(0, 0, 704, 704);
 
     // compute delta time in seconds -- also cap it
     var delta = 0.1;
@@ -102,7 +102,7 @@ Game.tick = function (elapsed) {
     this.update(delta);
     this.render();
 
-    setTimeout(function(){Game.tick()}, 100);
+    setTimeout(function(){Game.tick()}, 150);
 }.bind(Game);
 
 // override these methods to create the demo

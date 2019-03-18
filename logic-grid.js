@@ -180,7 +180,7 @@ Game.init = function () {
         [Keyboard.LEFT, Keyboard.RIGHT, Keyboard.UP, Keyboard.DOWN]);
     this.tileAtlas = Loader.getImage('tiles');
     this.hero = new Hero(map, 1184, 1184);
-    this.camera = new Camera(map, 768, 768);
+    this.camera = new Camera(map, 704, 704);
     this.camera.follow(this.hero);
 };
 
