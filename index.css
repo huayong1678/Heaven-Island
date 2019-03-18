@@ -418,8 +418,30 @@ div.sign:hover {
     position: fixed;
     font-family: 'Sigmar One', cursive;
     font-weight: bold;
-    right: 9.5%;
-    top: 49.5%;
+    right: 9.75%;
+    top: 50%;
+    font-size: 75%;
+    color: rgb(128, 72, 26);
+    text-shadow: 0 2px 0 #301e06,
+                0 3px 0 rgb(80, 41, 8),
+                0 4px 0 #3a240a,
+                0 5px 0 rgb(41, 21, 3),
+                0 6px 1px rgba(0,0,0,.1),
+                0 0 5px rgba(0,0,0,.1),
+                0 1px 3px rgba(0,0,0,.3),
+                0 3px 5px rgba(0,0,0,.2),
+                0 5px 10px rgba(0,0,0,.25),
+                0 10px 10px rgba(0,0,0,.2),
+                0 20px 20px rgba(0,0,0,.15);
+    text-decoration: none;
+}
+#txt:hover{
+    position: fixed;
+    font-family: 'Sigmar One', cursive;
+    font-weight: bold;
+    right: 9.25%;
+    top: 49.75%;
+    font-size: 85%;
     color: rgb(128, 72, 26);
     text-shadow: 0 2px 0 #301e06,
                 0 3px 0 rgb(80, 41, 8),
