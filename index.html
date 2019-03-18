@@ -29,6 +29,20 @@
     $( document ).ready(function() {
     $('body').show();
     });
+    bgm.play();
     </script>
+    <script>
+        $(document).ready(function(){
+            $("div").hover(function(){
+                $(this).whoop();
+            });
+        });
+    </script>
+    <audio id="whoop" preload="auto">
+            <source src="whoosh.mp3" type="audio/ogg">
+    </audio>
+    <audio id="bgm" autoplay loop>
+        <source src="BGM.mp3" type="audio/ogg">
+    </audio>
 </body>
 </html>

@@ -96,7 +96,7 @@ body{
     margin: 0%;
     padding: 0%;
     top: 15%;
-    left: 69%;
+    left: 66.5%;
     transition: 0.4s;
     font-family: 'Sigmar One', cursive;
     font-weight: bold;
@@ -121,11 +121,11 @@ body{
     margin: 0%;
     padding: 0%;
     top: 44%;
-    left: 64%;
+    left: 62.75%;
     transition: 0.4s;
     font-family: 'Sigmar One', cursive;
     font-weight: bold;
-    font-size: 375%;
+    font-size: 330%;
     color: rgb(128, 72, 26);
     text-shadow: 0 2px 0 #301e06,
                 0 3px 0 rgb(80, 41, 8),
@@ -170,8 +170,8 @@ body{
     display: block;
     margin: 0%;
     padding: 0%;
-    top: 14%;
-    left: 68%;
+    top: 13%;
+    left: 65.5%;
     transition: 0.4s;
     font-family: 'Sigmar One', cursive;
     font-weight: bold;
@@ -295,6 +295,26 @@ a:link {
     position: fixed;
     display: inline-block;
     content:url('tutorial5.png');
+    padding: 0%;
+    top: 10%;
+    margin: auto;
+    left: 25%;
+    width: 50%;
+}
+#tutorial6{
+    position: fixed;
+    display: inline-block;
+    content:url('tutorial6.png');
+    padding: 0%;
+    top: 10%;
+    margin: auto;
+    left: 25%;
+    width: 50%;
+}
+#tutorial7{
+    position: fixed;
+    display: inline-block;
+    content:url('tutorial7.png');
     padding: 0%;
     top: 10%;
     margin: auto;
