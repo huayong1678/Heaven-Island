@@ -91,7 +91,7 @@ body {
     margin: 10px;
     top: 20px;
     left: 7%;
-    background: #ddd;
+    background: rgb(255, 255, 255);
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;

@@ -14,7 +14,7 @@ $(document).ready(function(){
       return;
     }
     // max damage is essentially quarter of max life
-    var damage = Math.floor(Math.random()*total);
+    var damage = Math.floor(0.33*total);
     // damage = 100;
     var newValue = value - damage;
     // calculate the percentage of the total width
