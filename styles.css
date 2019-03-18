@@ -16,8 +16,8 @@ body {
             animation: play 1.2s steps(10) infinite;
 }
 *{
-    cursor: url('cursor.png'), default;
-    cursor: url('cursor2.png'), pointer;
+    cursor: url('cursor.png'), auto;
+    /*cursor: url('cursor2.png'), pointer;*/
 }
 /*div.index{
     background-image: url('map_background.png');
