@@ -19,5 +19,16 @@
             $(this).toggleClass('clicked');
 });
     </script>
+    <iframe src="OCEAN.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+        </iframe> 
+    <script>
+            var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+                if(!isChrome){
+                    $('#iframeAudio').remove()
+                }
+                else{
+                    $('#playAudio').remove() //just to make sure that it will not have 2x audio in the background 
+                }
+        </script>
 </body>
 </html>

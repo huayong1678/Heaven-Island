@@ -41,8 +41,16 @@
     <audio id="whoop" preload="auto">
             <source src="whoosh.mp3" type="audio/ogg">
     </audio>
-    <audio id="bgm" autoplay loop>
-        <source src="BGM.mp3" type="audio/ogg">
-    </audio>
+    <iframe src="BGM.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+        </iframe> 
+    <script>
+        var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+                if(!isChrome){
+                    $('#iframeAudio').remove()
+                }
+                else{
+                    $('#playAudio').remove() //just to make sure that it will not have 2x audio in the background 
+                }
+    </script>
 </body>
 </html>
