@@ -26,12 +26,12 @@
     height: 30px;
     padding: 5px;
     margin: 10px auto;
-    top: 20px;
+    top: 18px;
     left: 8.5%;
   background-color: rgb(255, 255, 255);
-  -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
+  -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
     position: fixed;
     -webkit-filter: drop-shadow(0px 3px 2px #222);
             filter: drop-shadow(0px 3px 2px #222);
@@ -44,17 +44,19 @@
   line-height: 22px; /* same as #progressBar height if we want text middle aligned */
   width: 0;
   background-color: #c54;
+  -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
   box-sizing: border-box;
   position: relative;
-    
-    transition: width .5s linear;
+    transition: width 500ms radial;
 }
     </style>
     <script>
-        function progress(timeleft, timetotal, $element) {
-    var progressBarWidth = timeleft * $element.width() *2 / timetotal;
+    function progress(timeleft, timetotal, $element) {
+    var progressBarWidth = timeleft * $element.width() *2.5 / timetotal;
     $element.find('div').animate({ width: progressBarWidth }, 500).html(Math.floor(timeleft/60) + ":"+ timeleft%60);
-    if(timeleft > 0) {
+    if(timeleft >= 0) {
         setTimeout(function() {
             progress(timeleft - 1, timetotal, $element);
         }, 1000);
@@ -66,9 +68,10 @@
                     } else {
                     }
     }
+
 };
 
-progress(150, 300, $('#progressBar'));
+progress(120, 300, $('#progressBar'));
     </script>
     <!--  <div class="health-bar" data-total="1000" data-value="1000">
         <div class="bar">
@@ -113,7 +116,7 @@ progress(150, 300, $('#progressBar'));
     </audio>
     <script>
         document.addEventListener('keydown', function(e) {
-        if (e.keyCode == 37 || e.keyCode == 38 || e.keyCode == 38 || e.keyCode == 40) {
+        if (e.keyCode == 37 || e.keyCode == 38 || e.keyCode == 39 || e.keyCode == 40) {
           document.getElementById('audio').play();
         }
       });
