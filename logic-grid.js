@@ -133,7 +133,7 @@ Hero.prototype.move = function (delta, dirx, diry) {
     this.y = Math.max(0, Math.min(this.y, maxY));
 
     if (this.beers[Math.floor(this.x / this.map.tsize)][Math.floor(this.y / this.map.tsize)] == 1) {
-        this.beers[Math.floor(this.x / this.map.tsize)][Math.floor(this.y / this.map.tsize)] = 0;
+        this.beers[Math.floor(this.x / this.map.tsize)][Math.floor(this.y / this.map.tsize)] == 0;
         this.score += 1;
     }
 };
@@ -175,7 +175,7 @@ Hero.prototype._collide = function (dirx, diry) {
 
 Game.load = function () {
     return [
-        Loader.loadImage('tiles', 'tiles.png'),
+        Loader.loadImage('tiles', 'tiles copy.png'),
         Loader.loadImage('hero', 'JB.png'),
         Loader.loadImage('beer', 'beer.png'),
         Loader.loadImage('enemy1', 'female1.png')
