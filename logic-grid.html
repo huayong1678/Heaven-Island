@@ -14,11 +14,67 @@
 <body class="fadeIn">
     <a href="index.html"><div class="arrow left"></div></a>
     <img src="head.png" id="charec"></img>
-    <div class="health-bar" data-total="1000" data-value="1000">
+    <div id="progressBar">
+        <div class="bar"></div>
+    </div>
+    <style>
+        #progressBar {
+            -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    margin: 10px auto;
+    top: 20px;
+    left: 8.5%;
+  background-color: rgb(255, 255, 255);
+  -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    position: fixed;
+    -webkit-filter: drop-shadow(0px 3px 2px #222);
+            filter: drop-shadow(0px 3px 2px #222);
+}
+
+#progressBar div {
+  height: 100%;
+  text-align: right;
+  padding: 0 10px;
+  line-height: 22px; /* same as #progressBar height if we want text middle aligned */
+  width: 0;
+  background-color: #c54;
+  box-sizing: border-box;
+  position: relative;
+    
+    transition: width .5s linear;
+}
+    </style>
+    <script>
+        function progress(timeleft, timetotal, $element) {
+    var progressBarWidth = timeleft * $element.width() *2 / timetotal;
+    $element.find('div').animate({ width: progressBarWidth }, 500).html(Math.floor(timeleft/60) + ":"+ timeleft%60);
+    if(timeleft > 0) {
+        setTimeout(function() {
+            progress(timeleft - 1, timetotal, $element);
+        }, 1000);
+    }
+    else{
+        var r = confirm("RESTART?");
+                    if (r == true) {
+                        location.reload(true);
+                    } else {
+                    }
+    }
+};
+
+progress(150, 300, $('#progressBar'));
+    </script>
+    <!--  <div class="health-bar" data-total="1000" data-value="1000">
         <div class="bar">
             <div class="hit"></div>
         </div>
-    </div>
+    </div> -->
     <!--   
     <br />
         
