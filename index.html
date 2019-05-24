@@ -12,9 +12,9 @@
 
     <div id="logo"></div>
 
-    <div class="wrapper">
+    <div class="wrapper" onmouseenter="playAudio()">
     <a href="tutorial.html" class="p2">Tutorial</a>
-    <a href="logic-grid.html" class="p1">Start Game</a>    
+    <a href="logic-grid.html" class="p1" onmouseenter="playAudio1()">Start Game</a>    
     <div class="rope">
         <img src="rope.png"></img>
     </div>
@@ -25,22 +25,36 @@
         <img src="sign.png"></img>
     </div>
     </div>
+    <audio id="audioID1">
+            <source src="GO.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    <script>
+            //Defining variable based on unique ID
+            var audio2 = document.getElementById("audioID1");
+            //Example of an HTML Audio/Video Method
+            function playAudio1() {
+                audio2.play();
+            }
+        </script>
+    <audio id="audioID">
+        <source src="whoosh.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <script>
+        //Defining variable based on unique ID
+        var audio1 = document.getElementById("audioID");
+        //Example of an HTML Audio/Video Method
+        function playAudio() {
+            audio1.play();
+        }
+    </script>
     <script>
     $( document ).ready(function() {
     $('body').show();
     });
     bgm.play();
     </script>
-    <script>
-        $(document).ready(function(){
-            $("div").hover(function(){
-                $(this).whoop();
-            });
-        });
-    </script>
-    <audio id="whoop" preload="auto">
-            <source src="whoosh.mp3" type="audio/ogg">
-    </audio>
     <iframe src="BGM.mp3" allow="autoplay" style="display:none" id="iframeAudio">
         </iframe> 
     <script>
