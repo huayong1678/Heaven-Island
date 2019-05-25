@@ -8,7 +8,7 @@
 
 
 ## Demonstrate Video
-[![](head.png)](https://www.youtube.com/watch?v=Rrfed-AC93Q&t=7s&feature=youtu.be "")
+[![](img/ytcover.png)](https://www.youtube.com/watch?v=Rrfed-AC93Q&t=7s&feature=youtu.be "")
 <br><br>
 
 
