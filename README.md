@@ -1,4 +1,4 @@
-![POSTER](POSTER/thumbnail.jpg)<br><br>
+![If this image is not loaded, your network is suck!!!](thumbnail.jpg)<br><br>
 
 
 ## Abstract
@@ -22,7 +22,7 @@
 
 
 ## Demonstrate Video
-[![](img/aaa.png)](https://www.youtube.com/watch?v=bZT4UT5Ej2Q&feature=youtu.be "")
+[![](thumbnail.jpg)](https://www.youtube.com/watch?v=Rrfed-AC93Q&t=7s&feature=youtu.be "")
 <br><br>
 
 
@@ -30,9 +30,9 @@
 | Profile |ชื่อ|นามสกุล|GitHub Username|รหัสนักศึกษา|
 |:-:|--|------|---------------|---------|
 |![https://www.facebook.com/pluemmooiuan](img/115.jpg)|Porames|Jariyayanyong|[@huayong1678](https://github.com/huayong1678)|61070115|
-|![www.facebook.com/jumpnajaa.f](img/096.jpg)|Napajorn|Yongstar|[@Napajorninwza](https://github.com/Napajorninwza)|61070096|
-|![https://www.facebook.com/yui.ammrar](img/267.jpg)|Ammara|Donglong|[@61070267](https://github.com/61070267)|61070267|
-|![https://www.facebook.com/7eay.mask](img/101.jpg)|Nawabhorn|Charattrakool|[@plynawabhorn](https://github.com/plynawabhorn)|61070101|<br><br>
+|![www.facebook.com/PanPasika](img/031.jpg)|Napajorn|Yongstar|[@Napajorninwza](https://github.com/Napajorninwza)|61070096|
+|![https://www.facebook.com/yui.ammrar](img/131.jpg)|Ammara|Donglong|[@61070267](https://github.com/61070267)|61070267|
+|![https://www.facebook.com/7eay.mask](img/146.jpg)|Nawabhorn|Charattrakool|[@plynawabhorn](https://github.com/plynawabhorn)|61070101|<br><br>
 
 
 ## Assistant Teacher
