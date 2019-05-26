@@ -14,7 +14,7 @@
 
 
 ## Others Project Demonstrate Video
-[![](img/another_cast.png)](https://youtu.be/tirJaGAf9Uc&feature=youtu.be "")
+[![](img/another_cast.png)](https://www.youtube.com/watch?v=tirJaGAf9Uc&feature=youtu.be "")
 <br><br>
 
 
