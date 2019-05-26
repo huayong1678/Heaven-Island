@@ -113,7 +113,6 @@ function Hero(map, x, y) {
     this.height = map.tsize;
     this.score = 0;
     this.image = Loader.getImage('hero');
-    this.beers.image = Loader.getImage('beer');
 }
 
 Hero.SPEED = 64; // pixels per second
@@ -177,8 +176,6 @@ Game.load = function () {
     return [
         Loader.loadImage('tiles', 'tiles copy.png'),
         Loader.loadImage('hero', 'JB.png'),
-        Loader.loadImage('beer', 'beer.png'),
-        Loader.loadImage('enemy1', 'female1.png')
     ];
 };
 
