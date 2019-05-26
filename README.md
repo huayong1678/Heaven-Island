@@ -23,8 +23,8 @@
 |:-:|--|------|---------------|---------|
 |![https://www.facebook.com/pluemmooiuan](img/115.jpg)|Porames|Jariyayanyong|[@huayong1678](https://github.com/huayong1678)|61070115|
 |![https://www.facebook.com/profile.php?id=100004608212324](img/031.jpg)|Chanoknet|Nuatongdee|[@x](x)|61070031|
-|![www.facebook.com/PanPasika](img/131.jpg)|Pasika|Sa-nguansab|[PasikaSanguansab](https://github.com/PasikaSanguansab)|61070131|
-|![https://www.facebook.com/poppyphichanok.chusombat](img/146.jpg)|Peechanok|Chusombat|[@x](x)|61070146|<br><br>
+|![www.facebook.com/PanPasika](img/131.jpg)|Pasika|Sa-nguansab|[@PasikaSanguansab](https://github.com/PasikaSanguansab)|61070131|
+|![https://www.facebook.com/poppyphichanok.chusombat](img/146.jpg)|Peechanok|Chusombat|[@Peechanok](https://github.com/Peechanok)|61070146|<br><br>
 
 
 ## Assistant Teacher
