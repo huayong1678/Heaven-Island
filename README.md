@@ -1,14 +1,15 @@
-![If this image is not loaded, your network is suck!!!](thumbnail.jpg)<br><br>
+![If this image is not loaded, your network is suck!!!](img/thumbnail.jpg)<br><br>
 
 ## Features
-* Real-time Mornitoring 
-* Automate Watering System
-* Wireless Controlling via Blynk©
+* HTML5
+* CSS
+* Java Script
+* Jquery
 <br><br>
 
 
 ## Demonstrate Video
-[![](head.png)](https://www.youtube.com/watch?v=Rrfed-AC93Q&t=7s&feature=youtu.be "")
+[![](img/ytcover.png)](https://www.youtube.com/watch?v=Rrfed-AC93Q&t=7s&feature=youtu.be "")
 <br><br>
 
 
@@ -16,18 +17,18 @@
 | Profile |ชื่อ|นามสกุล|GitHub Username|รหัสนักศึกษา|
 |:-:|--|------|---------------|---------|
 |![https://www.facebook.com/pluemmooiuan](img/115.jpg)|Porames|Jariyayanyong|[@huayong1678](https://github.com/huayong1678)|61070115|
-|![www.facebook.com/PanPasika](img/031.jpg)|Napajorn|Yongstar|[@Napajorninwza](https://github.com/Napajorninwza)|61070096|
-|![https://www.facebook.com/yui.ammrar](img/131.jpg)|Ammara|Donglong|[@61070267](https://github.com/61070267)|61070267|
-|![https://www.facebook.com/7eay.mask](img/146.jpg)|Nawabhorn|Charattrakool|[@plynawabhorn](https://github.com/plynawabhorn)|61070101|<br><br>
+|![https://www.facebook.com/profile.php?id=100004608212324](img/031.jpg)|Chanoknet|Nuatongdee|[@x](x)|61070031|
+|![www.facebook.com/PanPasika](img/131.jpg)|Pasika|Sa-nguansab|[PasikaSanguansab](https://github.com/PasikaSanguansab)|61070131|
+|![https://www.facebook.com/poppyphichanok.chusombat](img/146.jpg)|Peechanok|Chusombat|[@x](x)|61070146|<br><br>
 
 
 ## Assistant Teacher
-|Assoc.Prof.Kitsuchart Pasupa|Assoc.Prof.Panwit Tuwanut|
-|:-:|:-:|
-|![](img/xxx.jpg)|![](img/yyy.jpg)|
+|Supawan Annanab|
+|:-:|
+|![](img/xxx.jpg)|
 <br>
 ==================================================================================<br><br>
-รายงาน และ ซอร์สโค้ดนี้ เป็นส่วนหนึ่งของวิชา การสร้างเกมส์ Multimedia Technology (06016206)
+รายงาน และ ซอร์สโค้ดนี้ เป็นส่วนหนึ่งของวิชา การสร้างเกมส์ Multimedia Technology (06016311)
 หลักสูตรวิทยาศาสตร์บัณฑิต สาขาวิชาเทคโนโลยีสารสนเทศ
 ภาคเรียนที่ 2 ปีการศึกษา 2561
 คณะเทคโนโลยีสารสนเทศ
